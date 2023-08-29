@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+aside ul{
+    list-style-type: '✔️ \00A0';
+    margin-left: 10px;
+    list-style-position: inside;
+    columns: 2;
+}
+aside  p{
+    text-indent: 10px;
+}
+#sp{
+    text-indent: 10px;
+    padding: 5px;
+}
+
+nav{
+    position: relative;
+    top: -10px;
+    margin-top: 25px;
+    text-align: center;
+   
+}
+
+#mais{
+
+    background-color: #C5EBD6;
+    border-radius: 5px;
+   
+   
+}
+
+#pp{
+
+    border-radius: 5px 5px  0 0 ;
+    background-color: #2FA866;
+
+}
+#sp{
+   
+    padding: 0px  8px 8px 8px ;
+
+}
+
+nav a:hover{
+    background-color: #80d1a3;
+}
+
+@media (min-width:800px){
+        nav{
+      
+            text-align: left;
+        
+        }
+}
+
+
+
+@media (max-width:800px){
+    header{
+        height: 210px;
+    }
+}
+
+.robo{
+        width: 80%;
+}
+
+.irina{
+    width: 100%;
+}
+
+#bugdroid{
+    margin: auto;
+    display: block;
+}
+
+#video{
+
+    margin: 0;
+    padding: 20px;
+    background-color: #185433;
+}
+
+#video iframe{
+    padding: 0;
+    width: 100%;
+}
+
+
+nav a{
+    color: white;
+    border-radius: 3px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 8px;
+    transition-duration: 1.5ms;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    text-shadow: 1 px 1px 5px black;
+        font-size: 3em;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+header > p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #84E1AD;
+ 
+
+}
+
+header{
+    background: linear-gradient(to bottom,#3AD07C,#185433);
+    min-height: 180px;
+}
+
+main{
+    line-height: 2em;
+    width: 50%;
+    background-color: white;
+    margin: auto;padding: 10px;border-radius: 5px;
+
+}
+footer strong{
+    color: rgb(96, 163, 230);
+}
+main h1{
+    font-size: 1.5em;
+    font-family: android;
+    color: #58886D;
+}
+main h2{
+    font-family: android;
+    background: linear-gradient(to right,#A9D4BC,white);
+}
+
+main p {
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+    text-align:justify ;
+    margin: 10px 0 10px 0;
+}
+
+footer{
+    line-height: 2em;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    height: 45px;
+}
