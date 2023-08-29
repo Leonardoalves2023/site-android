@@ -25,10 +25,10 @@ aside  p{
 }
 
 nav{
-    position: relative;
-    top: -10px;
+    min-width: 300px;
+    max-width: 800px;
     margin-top: 25px;
-    text-align: center;
+    text-align: left;
    
 }
 
@@ -56,21 +56,6 @@ nav a:hover{
     background-color: #80d1a3;
 }
 
-@media (min-width:800px){
-        nav{
-      
-            text-align: left;
-        
-        }
-}
-
-
-
-@media (max-width:800px){
-    header{
-        height: 210px;
-    }
-}
 
 .robo{
         width: 80%;
@@ -112,8 +97,8 @@ nav a{
 header h1{
     color: white;
     text-align: center;
-    text-shadow: 1 px 1px 5px black;
-        font-size: 3em;
+    text-shadow: 1px 1px 5px black;
+        font-size: 2.4em;
         font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -138,7 +123,8 @@ header{
 
 main{
     line-height: 2em;
-    width: 50%;
+    min-width: 280px;
+    max-width: 800px;
     background-color: white;
     margin: auto;padding: 10px;border-radius: 5px;
 
